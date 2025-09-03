@@ -11,7 +11,7 @@ def generate_story(model: str, prompt: str, temperature: float) -> Response:
 
     :param temperature: float
     :param prompt: string
-    :type model: string
+    :param model: string
     """
     key = os.getenv("OPENAI_API_KEY")
     if not key:
