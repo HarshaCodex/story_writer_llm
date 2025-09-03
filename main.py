@@ -43,7 +43,7 @@ if __name__=="__main__":
         llm_response = generate_story(model, prompt, temperature)
         print(llm_response.output_text)
     except Exception as e:
-        print(f"Something went while sending request to OpenAI: {e}")
+        print(f"Something went wrong while sending request to OpenAI: {e}")
 
 
 
